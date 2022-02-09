@@ -170,7 +170,7 @@ a {
   width: 20px;
 }
 
-@media screen and (min-width: 0px) and (max-width: 419px) and (-webkit-min-device-pixel-ratio: 2) {
+@media screen and (min-width: 0px) and (max-width: 419px) {
   .container {
     position: absolute;
     right: 900px;
@@ -303,7 +303,7 @@ a {
   }
 }
 
-@media screen and (min-width: 420px) and (max-width: 899px) and (-webkit-min-device-pixel-ratio: 2) {
+@media screen and (min-width: 420px) and (max-width: 1079px) {
   .container {
     position: absolute;
     right: 900px;
@@ -448,8 +448,8 @@ a {
   }
 }
 
-@media screen and (min-width: 900px) and (max-width: 1079px) and (-webkit-min-device-pixel-ratio: 2) {
-  .logo {
+@media screen and (min-width: 900px) and (max-width: 1000px) {
+  /* .logo {
     cursor: pointer;
   }
 
@@ -547,7 +547,6 @@ a {
     outline: none;
     width: 73%;
     margin-right: 12px;
-    /* background-color: rgba(245, 245, 249); */
     border-radius: 6px;
     font-family: inherit;
     letter-spacing: -0.025rem;
@@ -582,9 +581,9 @@ a {
   .container-mobile {
     display: none;
   }
-}
+} */
 
-@media screen and (min-width: 1080px) and (max-width: 1365px) and (-webkit-min-device-pixel-ratio: 2) {
+@media screen and (min-width: 1080px) and (max-width: 1365px) {
   .logo {
     cursor: pointer;
   }
@@ -720,7 +719,7 @@ a {
   }
 }
 
-@media screen and (min-width: 1366px) and (max-width: 1919px) and (-webkit-min-device-pixel-ratio: 2) {
+@media screen and (min-width: 1366px) and (max-width: 1919px) {
   .logo {
     cursor: pointer;
   }
@@ -856,7 +855,7 @@ a {
   }
 }
 
-@media screen and (min-width: 1920px) and (max-width: 10000px) and (-webkit-min-device-pixel-ratio: 2) {
+@media screen and (min-width: 1920px) and (max-width: 10000px) {
   .logo {
     cursor: pointer;
   }
