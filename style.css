@@ -307,7 +307,7 @@ a {
   .container {
     position: absolute;
     right: 900px;
-    visibility: visible;
+    visibility: hidden;
   }
 
   .logo {
@@ -448,8 +448,8 @@ a {
   }
 }
 
-@media screen and (min-width: 900px) and (max-width: 1000px) {
-  /* .logo {
+/* @media screen and (min-width: 900px) and (max-width: 1000px) {
+  .logo {
     cursor: pointer;
   }
 
@@ -581,7 +581,7 @@ a {
   .container-mobile {
     display: none;
   }
-} */
+}  */
 
 @media screen and (min-width: 1080px) and (max-width: 1365px) {
   .logo {
